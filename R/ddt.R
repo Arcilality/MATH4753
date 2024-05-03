@@ -7,6 +7,10 @@
 #' \describe{
 #' \item{RIVER}{Three letter abbreviation of the River}
 #' \item{MILE}{Mile count for where the fish was caught}
+#'  \item{DDT}{Numeric, concentration of DDT}
+#'   \item{LENGTH}{Numeric, length of something measured}
+#'   \item{SPECIES}{Factor, species name}
+#'   \item{WEIGHT}{Numeric, weight of speices}
 #' ...
 #' }
 #' @source \url{https://www.crcpress.com/Statistics-for-Engineering-and-the-Sciences-Sixth-Edition/Mendenhall-Sincich/p/book/9781498728850}

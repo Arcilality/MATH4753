@@ -1,4 +1,4 @@
-#' Negative curve
+#' Normal Distribution curve
 #'
 #' @param mu mu is the mean
 #' @param sigma sigma is the standard deviation

@@ -2,7 +2,7 @@
 % Please edit documentation in R/myquadplot.R
 \name{myplot}
 \alias{myplot}
-\title{Title}
+\title{Quadratic function}
 \usage{
 myplot(x)
 }
@@ -13,7 +13,7 @@ myplot(x)
 Intercept of the quadratic function
 }
 \description{
-Title
+Quadratic function
 }
 \examples{
 myplot(x = 1:10)

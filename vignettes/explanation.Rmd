@@ -17,3 +17,51 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(MATH4753li0197)
 ```
+
+# Introduction
+
+The MATH4754li0197 package is a collection of functions and datasets that I have created to be used in the labs, projects, and assignments throughout this course. 
+
+## First function
+
+This function was taken and used in lab 5 to create a binomial simulation by making a binomial distribution plot
+
+```{r}
+MATH4753li0197::mybin(1000, n = 10, p = 0.5)
+```
+This plot is a binomial distribution with iter = 1000 iterations, n = 10 sample size, p = 0.5 probability of success
+
+
+
+## Second function
+
+This function was used in lab 4 and 
+The function is used to calculate the intercept of a quadratic.
+It is used to produce heights for input 'x' for it to be used on a plot to graph a quadratic
+
+```{r}
+MATH4753li0197::myplot(3)
+```
+This value can be used for the intercept of a quadratic.
+
+
+## Third function
+
+
+This function was used in lab 6 and is used to create a normal density distribution curve plot
+```{r}
+MATH4753li0197::myncurve(3, 7, 2)
+```
+
+It creates a normal density distribution curve where the parameters are mu = 3, sigma = 7, and it calculates the area under the curve.
+
+
+## Fourth function
+
+This function was used in lab 7 and is a documentation of the FIREDAM data set containing a data frame with 15 rows and 2 variable which is distance and damage.
+```{r}
+MATH4753li0197::fire
+MATH4753li0197::ddt
+
+```
+

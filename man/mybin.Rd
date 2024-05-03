@@ -20,6 +20,6 @@ a binomial distribution plot
 Makes a binomial distribution plot
 }
 \examples{
-mybin(iter=1000,n=18, p=0.3)
+mybin(iter= 1000,n= 18, p=0.3)
 
 }

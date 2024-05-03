@@ -2,7 +2,7 @@
 % Please edit documentation in R/myncurve.R
 \name{myncurve}
 \alias{myncurve}
-\title{Negative curve}
+\title{Normal Distribution curve}
 \usage{
 myncurve(mu, sigma, a)
 }
@@ -17,7 +17,7 @@ myncurve(mu, sigma, a)
 Normal density curve
 }
 \description{
-Negative curve
+Normal Distribution curve
 }
 \examples{
 myncurve(3, 7, 2)
